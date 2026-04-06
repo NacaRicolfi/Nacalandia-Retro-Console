@@ -42,25 +42,25 @@ Aquí podés ver la interfaz personalizada de **Nacalandia** funcionando en alta
 <p align="center">
   <table>
     <tr>
-      <td width="50%">
+      <td width="75%">
         <img src="Principal.png" alt="Nacalandia Dashboard" width="100%">
         <p align="center"><i>Dashboard Principal - Acceso Rápido</i></p>
       </td>
-      <td width="50%">
+      <td width="75%">
         <img src="NES.png" alt="Nacalandia Systems" width="100%">
         <p align="center"><i>Selección de Sistemas Retro</i></p>
       </td>
     </tr>
     <tr>
-      <td width="50%">
+      <td width="75%">
         <img src="GBA.png" alt="Nacalandia Custom Theme" width="100%">
         <p align="center"><i>Custom Theme & Rices</i></p>
       </td>
-      <td width="50%">
+      <td width="75%">
         <img src="MAME.png" alt="Nacalandia Custom Theme" width="100%">
         <p align="center"><i>Custom Theme & Rices</i></p>
       </td>
-      <td width="50%">
+      <td width="75%">
         <img src="Cores.png" alt="Nacalandia In-Game" width="100%">
         <p align="center"><i>Integrated Cores</i></p>
       </td>
