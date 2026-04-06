@@ -57,12 +57,11 @@ Aquí podés ver la interfaz personalizada de **Nacalandia** funcionando en alta
         <p align="center"><i>Custom Theme & Rices</i></p>
       </td>
       <td width="50%">
-        <td width="50%">
         <img src="MAME.png" alt="Nacalandia Custom Theme" width="100%">
         <p align="center"><i>Custom Theme & Rices</i></p>
       </td>
       <td width="50%">
-        <img src="cores.png" alt="Nacalandia In-Game" width="100%">
+        <img src="Cores.png" alt="Nacalandia In-Game" width="100%">
         <p align="center"><i>Integrated Cores</i></p>
       </td>
     </tr>
