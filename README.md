@@ -51,12 +51,12 @@ Aquí podés ver la interfaz personalizada de **Nacalandia** funcionando en alta
 
 <p align="center">
   <img src="GBA.png" alt="Nacalandia Custom Theme GBA" width="80%">
-  <br><i>Custom Theme & Rices (Purple Mode)</i>
+  <br><i>Custom Theme & Rices GBA</i>
 </p>
 
 <p align="center">
   <img src="MAME.png" alt="Nacalandia Custom Theme Arcade" width="80%">
-  <br><i>Custom Theme & Rices (OLED Black)</i>
+  <br><i>Custom Theme & Rices MAME</i>
 </p>
 
 <p align="center">
