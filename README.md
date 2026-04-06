@@ -40,32 +40,27 @@ Nacalandia nació de la pasión por el **Retro-Gaming** y la necesidad de tener 
 Aquí podés ver la interfaz personalizada de **Nacalandia** funcionando en alta resolución, destacando la curaduría visual y la organización de sistemas.
 
 <p align="center">
-  <table>
-    <tr>
-      <td width="75%">
-        <img src="Principal.png" alt="Nacalandia Dashboard" width="100%">
-        <p align="center"><i>Dashboard Principal - Acceso Rápido</i></p>
-      </td>
-      <td width="75%">
-        <img src="NES.png" alt="Nacalandia Systems" width="100%">
-        <p align="center"><i>Selección de Sistemas Retro</i></p>
-      </td>
-    </tr>
-    <tr>
-      <td width="75%">
-        <img src="GBA.png" alt="Nacalandia Custom Theme" width="100%">
-        <p align="center"><i>Custom Theme & Rices</i></p>
-      </td>
-      <td width="75%">
-        <img src="MAME.png" alt="Nacalandia Custom Theme" width="100%">
-        <p align="center"><i>Custom Theme & Rices</i></p>
-      </td>
-      <td width="75%">
-        <img src="Cores.png" alt="Nacalandia In-Game" width="100%">
-        <p align="center"><i>Integrated Cores</i></p>
-      </td>
-    </tr>
-  </table>
+  <img src="Principal.png" alt="Dashboard Principal" width="80%">
+  <br><i>Dashboard Principal - Acceso Rápido</i>
 </p>
 
+<p align="center">
+  <img src="NES.png" alt="Nacalandia Systems" width="80%">
+  <br><i>Selección de Sistemas Retro</i>
+</p>
+
+<p align="center">
+  <img src="GBA.png" alt="Nacalandia Custom Theme GBA" width="80%">
+  <br><i>Custom Theme & Rices (Purple Mode)</i>
+</p>
+
+<p align="center">
+  <img src="MAME.png" alt="Nacalandia Custom Theme Arcade" width="80%">
+  <br><i>Custom Theme & Rices (OLED Black)</i>
+</p>
+
+<p align="center">
+  <img src="Cores.png" alt="Integrated Cores" width="80%">
+  <br><i>Integrated Cores & System Info</i>
+</p>
 ---
