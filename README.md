@@ -1,66 +1,71 @@
-# 🎮 Nacalandia: Portable Multi-Console Console
+# 🎮 Nacalandia: Portable Multi-Console Hub
 
 ### Custom Gaming Dashboard | Emulation & System Optimization
 
-Nacalandia es un ecosistema portable diseñado para centralizar la experiencia de retro-gaming. Este proyecto combina la potencia de sistemas como **RetroBat** y **ArkOS** con una personalización estética y funcional única.
-
----
-
-## 🚀 Características Principales
-- **Multi-Sistema:** Integración fluida de múltiples emuladores en una sola interfaz.
-- **Portabilidad:** Configurado para ejecutarse de forma optimizada en dispositivos portátiles y PC.
-- **Custom UI/UX:** Interfaz personalizada con una selección curada de temas y sonidos (Custom Rices).
-- **Optimización de Rendimiento:** Scripts específicos para mejorar la carga y ejecución de títulos clásicos.
-
----
-
-## 🛠️ Stack Tecnológico
-![Emulation](https://img.shields.io/badge/Emulation-RetroArch%20%7C%20RetroBat-red?style=for-the-badge&logo=retroarch)
-![System](https://img.shields.io/badge/OS-Windows%20%7C%20ArkOS-0078D4?style=for-the-badge&logo=windows)
-![Scripting](https://img.shields.io/badge/Automation-PowerShell-5391FE?style=for-the-badge&logo=powershell)
-
----
-
-## 📂 Estructura del Proyecto
-- `Config/`: Archivos de configuración optimizados para emuladores.
-- `Scripts/`: Automatizaciones para la gestión de librerías y mapeo de controles.
-- `Themes/`: Personalizaciones visuales exclusivas de Nacalandia.
-
----
-
-## 📖 Mi Visión
-Nacalandia nació de la pasión por el **Retro-Gaming** y la necesidad de tener una estación de juego que sea tan potente como estética. Es la unión entre el software de emulación avanzado y la personalización extrema de sistemas.
-
----
+**Nacalandia** es un ecosistema portable de alto rendimiento diseñado para centralizar y elevar la experiencia de retro-gaming. Este proyecto fusiona la potencia de sistemas como **RetroArch** y entornos **Conda** aislados con una interfaz de usuario dinámica y ultra-estilizada desarrollada sobre **React** y **Electron**.
 
 ---
 
 ## 📸 Media & Interface
-
-Aquí podés ver la interfaz personalizada de **Nacalandia** funcionando en alta resolución, destacando la curaduría visual y la organización de sistemas.
+Aquí podés ver la interfaz personalizada de Nacalandia funcionando en alta resolución, destacando la curaduría visual y la organización de sistemas.
 
 <p align="center">
-  <img src="Principal.png" alt="Dashboard Principal" width="80%">
+  <img src="Principal.png" alt="Dashboard Principal" width="85%">
   <br><i>Dashboard Principal - Acceso Rápido</i>
 </p>
 
 <p align="center">
-  <img src="NES.png" alt="Nacalandia Systems" width="80%">
-  <br><i>Selección de Sistemas Retro</i>
+  <img src="NES.png" alt="Nacalandia Systems" width="45%">
+  <img src="GBA.png" alt="Nacalandia Custom Theme GBA" width="45%">
+  <br><i>Selección de Sistemas Retro & Custom Theme GBA</i>
 </p>
 
 <p align="center">
-  <img src="GBA.png" alt="Nacalandia Custom Theme GBA" width="80%">
-  <br><i>Custom Theme & Rices GBA</i>
+  <img src="MAME.png" alt="Nacalandia Custom Theme Arcade" width="45%">
+  <img src="Cores.png" alt="Integrated Cores" width="45%">
+  <br><i>Custom Theme MAME & Integrated Cores System Info</i>
 </p>
 
-<p align="center">
-  <img src="MAME.png" alt="Nacalandia Custom Theme Arcade" width="80%">
-  <br><i>Custom Theme & Rices MAME</i>
-</p>
-
-<p align="center">
-  <img src="Cores.png" alt="Integrated Cores" width="80%">
-  <br><i>Integrated Cores & System Info</i>
-</p>
 ---
+
+## 🚀 Características Principales
+
+* **Multi-Sistema Nativo:** Soporte integrado y automático para N64, Wii, GameCube, Xbox, NeoGeo, MAME, GBA, SNES y más.
+* **Filosofía Zero-Friction:** Portabilidad absoluta. Ejecución directa desde unidades externas sin instalación, sin rastros en el registro de Windows y sin dependencias globales.
+* **Interfaz Inteligente (Dynamic Ricing):** UI desarrollada en **React** que adapta automáticamente su paleta cromática e iconos detectando el sistema cargado.
+* **Búsqueda de Medios Integrada:** Conexión directa con el explorador de archivos nativo para una carga de ROMs robusta y sin fallos de permisos.
+* **Entorno Aislado:** Inyección de ejecución mediante entornos **Conda** portátiles para garantizar la compatibilidad de librerías en cualquier PC.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Conda](https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
+![Vulkan](https://img.shields.io/badge/Vulkan-BC181E?style=for-the-badge&logo=vulkan&logoColor=white)
+
+---
+
+## 📂 Estructura del Proyecto
+
+* `Config/`: Archivos `.cfg` e `.ini` optimizados para baja latencia.
+* `Scripts/`: Automatizaciones en `.bat` y **Python** para la gestión de procesos.
+* `Themes/`: Definiciones de estilos y assets visuales exclusivos.
+* `Runtime/`: Entorno Conda portátil precargado (`nacal_env`).
+* `Emulator/`: Binarios optimizados y núcleos (cores) de emulación de baja latencia.
+
+---
+
+## ⚙️ Optimización y Configuración
+
+Para garantizar una respuesta inmediata (**low input lag**), Nacalandia utiliza plantillas que priorizan el renderizado por hardware vía **Vulkan**.
+
+Ejemplo de `nacalandia_optimized.cfg`:
+```ini
+video_driver = "vulkan"
+video_vsync = "true"
+video_hard_sync = "true"
+video_frame_delay = 0
+savestate_auto_save = "true"
