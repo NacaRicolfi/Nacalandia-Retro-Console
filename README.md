@@ -69,3 +69,26 @@ video_vsync = "true"
 video_hard_sync = "true"
 video_frame_delay = 0
 savestate_auto_save = "true"
+
+---
+
+##⚡ Automatización de Arranque
+El proyecto incluye un script de pre-vuelo que valida la integridad del entorno antes de inicializar la interfaz gráfica.
+
+start_nacalandia.bat:
+@echo off
+echo [SYSTEM] Iniciando Nacalandia Retro Hub...
+if not exist ".\runtime\envs\nacal_env" (
+    echo [ERROR] Entorno Conda no detectado.
+    pause
+    exit
+)
+start "" ".\dist_electron\Nacalandia.exe"
+exit
+
+---
+
+📖 Mi Visión
+Nacalandia nació de la pasión por el Retro-Gaming y la necesidad técnica de poseer una estación de juego que sea tan potente internamente como estética externamente. Es la unión definitiva entre el software de emulación de vanguardia y la personalización extrema de sistemas operativos portátiles.
+
+Nacal Team | 2026
