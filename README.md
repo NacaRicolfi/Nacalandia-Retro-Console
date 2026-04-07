@@ -69,6 +69,7 @@ video_vsync = "true"
 video_hard_sync = "true"
 video_frame_delay = 0
 savestate_auto_save = "true"
+```
 
 ---
 
@@ -76,7 +77,7 @@ savestate_auto_save = "true"
 El proyecto incluye un script de pre-vuelo que valida la integridad del entorno antes de inicializar la interfaz gráfica.
 
 start_nacalandia.bat:
-@echo off
+```@echo off
 echo [SYSTEM] Iniciando Nacalandia Retro Hub...
 if not exist ".\runtime\envs\nacal_env" (
     echo [ERROR] Entorno Conda no detectado.
@@ -85,6 +86,7 @@ if not exist ".\runtime\envs\nacal_env" (
 )
 start "" ".\dist_electron\Nacalandia.exe"
 exit
+```
 
 ---
 
